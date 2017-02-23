@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>behavior.vistor.Engine</OriginalElement>
+  <nodes>
+    <node x="116.0" y="170.0">behavior.vistor.Car</node>
+    <node x="124.22916666666666" y="0.0">behavior.vistor.Visitable</node>
+    <node x="0.0" y="245.0">behavior.vistor.Visitor</node>
+    <node x="179.0" y="80.0">behavior.vistor.Body</node>
+    <node x="0.0" y="80.0">behavior.vistor.Engine</node>
+    <node x="91.0" y="80.0">behavior.vistor.Wheel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="behavior.vistor.Car" target="behavior.vistor.Wheel">
+      <point x="-7.428571428571416" y="-15.0" />
+      <point x="134.57142857142858" y="130.0" />
+      <point x="108.0" y="130.0" />
+      <point x="-17.0" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Car" target="behavior.vistor.Body">
+      <point x="7.428571428571445" y="-15.0" />
+      <point x="149.42857142857144" y="130.0" />
+      <point x="194.5" y="130.0" />
+      <point x="-15.5" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Car" target="behavior.vistor.Engine">
+      <point x="-14.857142857142861" y="-15.0" />
+      <point x="127.14285714285714" y="140.0" />
+      <point x="53.25" y="140.0" />
+      <point x="17.75" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Car" target="behavior.vistor.Visitable">
+      <point x="22.285714285714278" y="-15.0" />
+      <point x="164.28571428571428" y="150.0" />
+      <point x="251.5" y="150.0" />
+      <point x="251.5" y="50.0" />
+      <point x="195.10416666666666" y="50.0" />
+      <point x="30.375" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Engine" target="behavior.vistor.Visitable">
+      <point x="0.0" y="-15.0" />
+      <point x="35.5" y="50.0" />
+      <point x="134.35416666666666" y="50.0" />
+      <point x="-30.375" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Wheel" target="behavior.vistor.Visitable">
+      <point x="0.0" y="-15.0" />
+      <point x="125.0" y="60.0" />
+      <point x="154.60416666666666" y="60.0" />
+      <point x="-10.125" y="15.0" />
+    </edge>
+    <edge source="behavior.vistor.Body" target="behavior.vistor.Visitable">
+      <point x="0.0" y="-15.0" />
+      <point x="210.0" y="60.0" />
+      <point x="174.85416666666666" y="60.0" />
+      <point x="10.125" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="126.0" y="137.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

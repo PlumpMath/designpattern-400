@@ -3,20 +3,20 @@
   <ID>JAVA</ID>
   <OriginalElement>behavior.command.AReceiverCommand</OriginalElement>
   <nodes>
-    <node x="3.25" y="80.0">behavior.command.AReceiverCommand</node>
-    <node x="172.25" y="80.0">behavior.command.Invoker</node>
-    <node x="0.0" y="0.0">behavior.command.Receiver</node>
-    <node x="141.25" y="0.0">behavior.command.Command</node>
+    <node x="-67.75" y="90.0">behavior.command.AReceiverCommand</node>
+    <node x="189.25" y="90.0">behavior.command.Invoker</node>
+    <node x="-37.0" y="-71.0">behavior.command.Receiver</node>
+    <node x="173.25" y="-69.0">behavior.command.Command</node>
   </nodes>
   <notes />
   <edges>
     <edge source="behavior.command.Invoker" target="behavior.command.Command">
-      <point x="0.0" y="-15.0" />
-      <point x="23.0" y="15.0" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="behavior.command.AReceiverCommand" target="behavior.command.Receiver">
-      <point x="-37.25" y="-15.0" />
-      <point x="0.0" y="15.0" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
     </edge>
     <edge source="behavior.command.AReceiverCommand" target="behavior.command.Command">
       <point x="37.25" y="-15.0" />
@@ -25,12 +25,9 @@
       <point x="-23.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="124.5" y="55.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="125.0" y="15.0" />
   <SelectedNodes>
-    <node>behavior.command.AReceiverCommand</node>
-    <node>behavior.command.Invoker</node>
     <node>behavior.command.Receiver</node>
-    <node>behavior.command.Command</node>
   </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
