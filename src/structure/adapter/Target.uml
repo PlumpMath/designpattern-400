@@ -4,7 +4,7 @@
   <OriginalElement>structure.adapter.Adaptee</OriginalElement>
   <nodes>
     <node x="23.5" y="0.0">structure.adapter.Target</node>
-    <node x="19.0" y="211.0">structure.adapter.Adaptee</node>
+    <node x="19.0" y="207.0">structure.adapter.Adaptee</node>
     <node x="0.0" y="80.0">structure.adapter.TargetAdapter</node>
   </nodes>
   <notes />
@@ -13,10 +13,16 @@
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
+    <edge source="structure.adapter.TargetAdapter" target="structure.adapter.Adaptee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="93.0" />
   <SelectedNodes>
+    <node>structure.adapter.Target</node>
     <node>structure.adapter.Adaptee</node>
+    <node>structure.adapter.TargetAdapter</node>
   </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>

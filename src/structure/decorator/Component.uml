@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structure.decorator.Component</OriginalElement>
+  <nodes>
+    <node x="3.0" y="180.0">structure.decorator.ConcreteDecoratorA</node>
+    <node x="96.25" y="0.0">structure.decorator.Component</node>
+    <node x="141.0" y="80.0">structure.decorator.ConcreteComponent</node>
+    <node x="30.0" y="80.0">structure.decorator.Decorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structure.decorator.ConcreteComponent" target="structure.decorator.Component">
+      <point x="0.0" y="-15.0" />
+      <point x="217.0" y="55.0" />
+      <point x="171.25" y="55.0" />
+      <point x="25.0" y="15.0" />
+    </edge>
+    <edge source="structure.decorator.Decorator" target="structure.decorator.Component">
+      <point x="0.0" y="-15.0" />
+      <point x="75.5" y="55.0" />
+      <point x="121.25" y="55.0" />
+      <point x="-25.0" y="15.0" />
+    </edge>
+    <edge source="structure.decorator.ConcreteDecoratorA" target="structure.decorator.Decorator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="147.5" y="95.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

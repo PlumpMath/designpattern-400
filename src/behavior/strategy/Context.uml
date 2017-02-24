@@ -4,16 +4,12 @@
   <OriginalElement>behavior.strategy.Context</OriginalElement>
   <nodes>
     <node x="108.0" y="80.0">behavior.strategy.StrategyA</node>
-    <node x="58.0" y="0.0">behavior.strategy.Strategy</node>
     <node x="0.0" y="80.0">behavior.strategy.StrategyB</node>
-    <node x="-247.0" y="0.0">behavior.strategy.Context</node>
+    <node x="58.0" y="0.0">behavior.strategy.Strategy</node>
+    <node x="-213.0" y="-1.0">behavior.strategy.Context</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="behavior.strategy.Context" target="behavior.strategy.Strategy">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
     <edge source="behavior.strategy.StrategyB" target="behavior.strategy.Strategy">
       <point x="0.0" y="-15.0" />
       <point x="44.0" y="55.0" />
@@ -26,9 +22,15 @@
       <point x="118.0" y="55.0" />
       <point x="20.0" y="15.0" />
     </edge>
+    <edge source="behavior.strategy.Context" target="behavior.strategy.Strategy">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="92.5" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="93.0" />
+  <SelectedNodes>
+    <node>behavior.strategy.Context</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
